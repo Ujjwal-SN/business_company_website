@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Samudra Axis - Modern Business Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive, modern business website built with React, Tailwind CSS, and Framer Motion. This website serves as a professional online presence with an admin dashboard for content management.
 
-## Available Scripts
+![Samudra Axis Preview](public/logo192.png)
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- **Responsive Design**: Works seamlessly on all devices
+- **Modern UI/UX**: Clean and intuitive user interface with smooth animations
+- **Multi-page Layout**: Home, About, Services, Blog, and Contact pages
+- **Admin Dashboard**: Secure admin panel for content management
+- **Interactive Elements**: Animated components and transitions
+- **Contact Form**: Functional contact form for user inquiries
+- **Blog Section**: Dynamic blog with posts
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: React 19
+- **Styling**: Tailwind CSS with custom animations
+- **Animation**: Framer Motion
+- **Routing**: React Router DOM
+- **Icons**: Hero Icons & Lucide Icons
+- **Form Handling**: React Hook Form
+- **State Management**: React Context API
+- **Authentication**: Firebase Authentication
+- **UI Components**: Custom components with responsive design
+- **Build Tool**: Create React App
 
-### `npm test`
+## 🚦 Available Scripts
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `npm start`: Runs the app in development mode
+- `npm test`: Launches the test runner
+- `npm run build`: Builds the app for production
+- `npm run eject`: Ejects from Create React App (use with caution)
 
-### `npm run build`
+## 📂 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+src/
+├── components/     # Reusable UI components
+│   ├── Navbar.js   # Navigation bar component
+│   ├── Footer.js   # Footer component
+│   ├── Carousel.js # Image/Content carousel
+│   └── ...
+├── pages/         # Page components
+│   ├── Home.js     # Home page
+│   ├── About.js    # About page
+│   ├── Services.js # Services page
+│   ├── Blog.js     # Blog page
+│   ├── Contact.js  # Contact page
+│   └── admin/      # Admin related pages
+├── styles/        # Global styles and animations
+├── App.js         # Main application component
+└── index.js       # Application entry point
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔒 Admin Access
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Navigate to `/admin/login`
+2. Enter admin credentials
+3. Access the dashboard at `/admin/dashboard`
 
-### `npm run eject`
+## 🎨 Styling
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project uses Tailwind CSS for styling with custom animations and responsive design. The color scheme and design system can be configured in `tailwind.config.js`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🤝 Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📄 License
 
-## Learn More
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🙏 Acknowledgments
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Firebase](https://firebase.google.com/)
+- [Create React App](https://create-react-app.dev/)
